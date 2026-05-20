@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quasars | عائلة واحدة</title>
+    <!-- تضمين خط Google Font لجمالية التصميم -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #5adbb5; --bg: #0b0e14; --text: #ffffff; }
+        body { font-family: 'Cairo', sans-serif; background-color: var(--bg); color: var(--text); margin: 0; display: flex; flex-direction: column; min-height: 100vh; }
+        
+        /* الهيدر والقوة */
+        header { padding: 20px; text-align: center; border-bottom: 2px solid var(--primary); }
+        
+        /* منطقة المحتوى الرئيسية */
+        main { flex: 1; padding: 20px; max-width: 800px; margin: auto; text-align: center; }
+        
+        h1 { color: var(--primary); font-size: 3rem; }
+        .card { background: #1a1f29; padding: 25px; border-radius: 15px; margin: 20px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        
+        /* الزر التفاعلي */
+        .cta-btn { background: var(--primary); color: #000; padding: 15px 40px; border: none; border-radius: 50px; font-weight: bold; cursor: pointer; transition: 0.3s; }
+        .cta-btn:hover { transform: scale(1.1); box-shadow: 0 0 20px var(--primary); }
+
+        footer { text-align: center; padding: 10px; font-size: 0.8rem; color: #666; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Elara Reviere Quasar</h2>
+    </header>
+
+    <main>
+        <h1>قبيلة Quasars</h1>
+        <p>نحن تردد واحد، روح واحدة، وعائلة لا تتخلى عن أحد.</p>
+        
+        <div class="card">
+            <h3>قوانين العائلة</h3>
+            <p>1. لا تنمر. 2. دعم غير مشروط. 3. تفاعل إجباري. 4. الحماية للجميع.</p>
+            <button class="cta-btn" onclick="joinFamily()">انضم إلى ترددنا الآن</button>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 تم البرمجة بحب بواسطة إيلارا كوازار
+    </footer>
+
+    <script>
+        // هنا سيبدأ السحر (المنطق)
+        function joinFamily() {
+            alert("أهلاً بك في العائلة! أنت الآن جزء من تردد كوازار.");
+        }
+    </script>
+</body>
+</html> 
